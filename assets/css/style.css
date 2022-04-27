@@ -1,0 +1,42 @@
+.img-logo{
+width:200px;
+height: 50px;
+   object-fit:cover;
+   object-position: center;
+   background-color:transparent;
+   
+}
+.img-carrusel{
+    height: calc(100vh - 76px);
+    object-fit: cover;
+    object-position: center;
+}
+.img-card{
+height: 250px;
+object-fit: cover;
+object-position: center;
+}
+.video-iframe
+{
+    height: 250px;
+    width: 100%;
+}
+.pantalla{
+position: absolute;
+z-index:2;
+height: calc(100vh - 76px);
+width:100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.cuadro{
+
+    padding: 20px;
+    color: white;
+    width: 50vw;
+    z-index:2;
+    background-color:rgba(red, green, blue, alpha)
+    opacity: .5;
+
+}
