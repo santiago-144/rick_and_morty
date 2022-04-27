@@ -1,15 +1,23 @@
 .img-logo{
-width:200px;
-height: 50px;
+width:50px;
+height: auto;
    object-fit:cover;
    object-position: center;
-   background-color:transparent;
    
 }
 .img-carrusel{
     height: calc(100vh - 76px);
     object-fit: cover;
     object-position: center;
+}
+#morty{
+    height: 70px;
+}
+#morty1{
+    width:70px;
+height: auto;
+   object-fit:cover;
+   object-position: center;
 }
 .img-card{
 height: 250px;
